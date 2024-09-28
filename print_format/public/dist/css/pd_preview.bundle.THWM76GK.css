@@ -1,0 +1,103 @@
+/* ../../../../../tmp/tmp-24141-fGQaOgQ0PGr7/print_format/print_format/public/scss/pd_preview.bundle.css */
+.page-container[data-page-route=print-format-previw] {
+  min-height: calc(100vh - 60px);
+  display: flex;
+  flex-direction: column;
+  --bg-red: var(--red-100);
+  background-color: aqua;
+}
+.page-container[data-page-route=print-format-previw] .text-highlight {
+  color: var(--heading-color) !important;
+}
+.page-container[data-page-route=print-format-previw] .ic-account-page .form-message {
+  margin: 0 4em;
+}
+.page-container[data-page-route=print-format-previw] .ic-account-page .main-content {
+  width: 100%;
+  margin-top: 2em;
+  display: flex;
+  padding: 0 4em;
+  -moz-column-gap: 4em;
+  column-gap: 4em;
+  row-gap: 2em;
+  justify-content: stretch;
+}
+.page-container[data-page-route=print-format-previw] .ic-account-page .main-content .card {
+  justify-content: space-between;
+  padding: 2em 3.5em;
+  flex: 1;
+  border-radius: var(--border-radius-md);
+  background-color: var(--card-bg);
+  border: 1px solid var(--border-color);
+}
+.page-container[data-page-route=print-format-previw] .ic-account-page .main-content .card .title {
+  font-size: 1.7em;
+  font-weight: 600;
+}
+@media screen and (max-width: 1200px) {
+  .page-container[data-page-route=print-format-previw] .ic-account-page {
+    font-size: 0.9em;
+  }
+  .page-container[data-page-route=print-format-previw] .ic-account-page .main-content .card {
+    padding-left: 2.5em;
+    padding-right: 2.5em;
+  }
+}
+@media (max-width: 992px) {
+  .page-container[data-page-route=print-format-previw] .ic-account-page {
+    font-size: 0.8em;
+  }
+  .page-container[data-page-route=print-format-previw] .ic-account-page .form-message {
+    margin: 0 1.5em;
+  }
+  .page-container[data-page-route=print-format-previw] .ic-account-page .main-content {
+    -moz-column-gap: 3em;
+    column-gap: 3em;
+    padding: 0 1.5em;
+  }
+}
+@media (max-width: 768px) {
+  .page-container[data-page-route=print-format-previw] .ic-account-page {
+    font-size: 1em;
+  }
+  .page-container[data-page-route=print-format-previw] .main-content {
+    flex-direction: column;
+    row-gap: 3em;
+  }
+  .page-container[data-page-route=print-format-previw] .ic-account-page .title {
+    text-align: center;
+  }
+}
+@media (max-width: 576px) {
+  .page-container[data-page-route=print-format-previw] .ic-account-page {
+    font-size: 0.9em;
+  }
+}
+@media (max-width: 400px) {
+  .page-container[data-page-route=print-format-previw] .ic-account-page {
+    font-size: 0.8em;
+  }
+}
+.page-container[data-page-route=print-format-previw] .fade-enter-active,
+.page-container[data-page-route=print-format-previw] .fade-leave-active {
+  transition: opacity 0.3s;
+}
+.page-container[data-page-route=print-format-previw] .fade-enter,
+.page-container[data-page-route=print-format-previw] .fade-leave-to {
+  opacity: 0;
+}
+.page-container[data-page-route=print-format-previw] .slide-leave-active,
+.page-container[data-page-route=print-format-previw] .slide-enter-active {
+  overflow: hidden;
+  transition: all 0.3s ease-in-out;
+}
+.page-container[data-page-route=print-format-previw] .slide-enter-to,
+.page-container[data-page-route=print-format-previw] .slide-leave {
+  max-height: 100px;
+}
+.page-container[data-page-route=print-format-previw] .slide-enter,
+.page-container[data-page-route=print-format-previw] .slide-leave-to {
+  max-height: 0;
+  margin: 0;
+}
+/*# sourceMappingURL=pd_preview.bundle.THWM76GK.css.map */

@@ -1,0 +1,6 @@
+.page-container[data-page-route=print-format-preview] {
+    min-height: calc(100vh - 60px);
+    display: flex;
+    flex-direction: column;
+    --bg-red: var(--red-100);
+  }
